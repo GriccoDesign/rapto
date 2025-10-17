@@ -6,6 +6,9 @@
     [{assign var="readonly" value=""}]
 [{/if}]
 
+
+
+
 <form name="transfer" id="transfer" action="[{$oViewConf->getSelfLink()}]" method="post">
     [{$oViewConf->getHiddenSid()}]
     <input type="hidden" name="oxid" value="[{$oxid}]">
